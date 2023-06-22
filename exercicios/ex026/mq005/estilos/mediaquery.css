@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*Para telas com no minimo o tamanho do tablet deverá ser seguido essas regras em relação a visualização do menu */
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu { display: block;
+    }
+
+    menu li {
+        display: inline-block;
+        
+    }
+
+}
+
+main {width: 768px;
+}
